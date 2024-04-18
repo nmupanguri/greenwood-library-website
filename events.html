@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Greenwood Library</title>
+    <title>Events - Greenwood Library</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -36,21 +36,22 @@
         section {
             padding: 20px;
         }
-        footer {
-            background-color: #008000;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        .event {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+        .event h2 {
+            margin-top: 0;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>About Greenwood Library</h1>
+    <h1>Events</h1>
 </header>
 
 <nav>
@@ -61,16 +62,22 @@
 </nav>
 
 <section>
-    <h2>Welcome to Greenwood Library</h2>
-    <p>Greenwood Library is a community-focused institution dedicated to providing access to information, resources, and educational opportunities to our patrons.</p>
-    <p>Our library offers a wide range of services including:</p>
-    <ul>
-        <li>Book borrowing and returns</li>
-        <li>Access to computers and internet</li>
-        <li>Reference assistance</li>
-        <li>Community events and programs</li>
-    </ul>
-    <p>We strive to create a welcoming environment for individuals of all ages and backgrounds. Whether you're a student, a professional, or simply an avid reader, Greenwood Library has something for you.</p>
+    <div class="event">
+        <h2>Book Club Meeting</h2>
+        <p>Date: March 15, 2024</p>
+        <p>Time: 6:00 PM</p>
+        <p>Location: Greenwood Library Meeting Room</p>
+        <p>Description: Join us for our monthly book club meeting where we'll be discussing our latest read and selecting the next book.</p>
+    </div>
+
+    <div class="event">
+        <h2>Author Talk: Jane Doe</h2>
+        <p>Date: April 5, 2024</p>
+        <p>Time: 4:00 PM</p>
+        <p>Location: Greenwood Library Auditorium</p>
+        <p>Description: Renowned author Jane Doe will be joining us to discuss her latest novel and answer questions from the audience.</p>
+    </div>
+
 </section>
 
 <footer>
